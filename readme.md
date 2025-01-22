@@ -1,19 +1,19 @@
-# ink-testing-library ![test](https://github.com/vadimdemedes/ink-testing-library/workflows/test/badge.svg)
+# ink-testing-library ![test](https://github.com/eXhumer/ink-testing-library/workflows/test/badge.svg)
 
-> Utilities for testing [Ink](https://github.com/vadimdemedes/ink) apps
+> Utilities for testing [Ink](https://github.com/eXhumer/ink) apps
 
 ## Install
 
 ```
-$ npm install --save-dev ink-testing-library
+$ npm install --save-dev @exhumer/ink-testing-library
 ```
 
 ## Usage
 
 ```jsx
 import React from 'react';
-import {Text} from 'ink';
-import {render} from 'ink-testing-library';
+import {Text} from '@exhumer/ink';
+import {render} from '@exhumer/ink-testing-library';
 
 const Counter = ({count}) => <Text>Count: {count}</Text>;
 
@@ -89,7 +89,7 @@ Type: `function`
 Write data to current component's stdin stream.
 
 ```jsx
-import {useInput, Text} from 'ink';
+import {useInput, Text} from '@exhumer/ink';
 
 const Test = () => {
 	useInput(input => {

@@ -1,5 +1,5 @@
 import {EventEmitter} from 'node:events';
-import {render as inkRender, type Instance as InkInstance} from 'ink';
+import {render as inkRender, type Instance as InkInstance} from '@exhumer/ink';
 import type {ReactElement} from 'react';
 
 class Stdout extends EventEmitter {

@@ -1,6 +1,6 @@
 import React from 'react';
 import test from 'ava';
-import {Text, useStdin, useStderr} from 'ink';
+import {Text, useStdin, useStderr} from '@exhumer/ink';
 import delay from 'delay';
 import {render} from '../source/index.js';
 
