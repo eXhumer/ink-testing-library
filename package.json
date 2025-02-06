@@ -1,6 +1,6 @@
 {
 	"name": "@exhumer/ink-testing-library",
-	"version": "4.0.1",
+	"version": "4.0.1-1",
 	"description": "Utilities for testing Ink apps",
 	"license": "MIT",
 	"repository": {
@@ -41,7 +41,7 @@
 		"test"
 	],
 	"devDependencies": {
-		"@exhumer/ink": "^5.0.0",
+		"@exhumer/ink": "^5.2.0-3",
 		"@sindresorhus/tsconfig": "^7.0.0",
 		"@types/node": "^22.10.7",
 		"@types/react": "^18.3.2",
